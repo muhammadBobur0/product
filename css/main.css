@@ -1,3 +1,35 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"), url("../fonts/poppins-v20-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2"), url("../fonts/poppins-v20-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2"), url("../fonts/poppins-v20-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2"), url("../fonts/poppins-v20-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -362,6 +394,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 main {
@@ -482,10 +515,6 @@ img {
   color: #fff;
 }
 
-.text {
-  color: #fff;
-}
-
 .logo {
   display: block;
 }
@@ -497,5 +526,77 @@ img {
 .in {
   color: #fff;
   border: 1px solid #fff;
+}
+
+.hero {
+  padding: 145px 0px;
+}
+
+.hero__tittle {
+  max-width: 518px;
+}
+
+.hero__tittle__in {
+  margin: 0;
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #22343D;
+}
+
+.hero__tittle__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.hero__tittle__link {
+  padding: 15px 40px;
+  background-color: #02897A;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 30px;
+}
+
+.box-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__tittle__vidio {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #02897A;
+}
+
+.hero__tittle__vidio::before {
+  display: inline-block;
+  width: 20px;
+  height: 17px;
+  background-image: url(../../images/pla.svg);
+  background-repeat: no-repeat;
+  background-size: 20px 17px;
+  background-position: center;
+  margin-right: 9px;
+  content: "";
+}
+
+.text {
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

@@ -18,7 +18,8 @@ var elResources = document.querySelector(".link-Resources")
 var ellogo = document.querySelector(".logo")
 var ellogobg = document.querySelector(".logo-bg")
 var elSign = document.querySelector(".Sign-In")
-
+var elHero = document.querySelector(".hero__tittle__in")
+var elHeroText = document.querySelector(".hero__tittle__text")
 
 lButton.addEventListener("click", function(){
   lBoxContent.classList.toggle("text")
@@ -28,7 +29,9 @@ lButton.addEventListener("click", function(){
   ellogo.classList.toggle("logo-bg")
   ellogobg.classList.toggle("logo")
   ellogobg.classList.toggle("logo-bg")
-  elSign.classList.toggle("in")
+  elSign.classList.toggle("text")
+  elHero.classList.toggle("text")
+  elHeroText.classList.toggle("text")
 
 
 
