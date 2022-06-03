@@ -425,8 +425,6 @@ img {
   margin: 0;
   padding: 0;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   list-style: none;
 }
 
@@ -472,7 +470,7 @@ img {
   border-radius: 100px;
   width: 32px;
   height: 32px;
-  background-image: url(../../images/Frame.svg);
+  background-image: url(../images/Frame.svg);
   background-repeat: no-repeat;
   background-size: 20px;
   background-position: center;
@@ -486,5 +484,18 @@ img {
 
 .text {
   color: #fff;
+}
+
+.logo {
+  display: block;
+}
+
+.logo-bg {
+  display: none;
+}
+
+.in {
+  color: #fff;
+  border: 1px solid #fff;
 }
 /*# sourceMappingURL=main.css.map */
