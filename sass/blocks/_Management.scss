@@ -1,0 +1,87 @@
+
+.main__Management {
+  padding: 150px 0px;
+  color: #22343D;
+}
+
+
+
+.main__Management__strong {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px; 
+ 
+  margin-bottom: 8px;
+}
+
+.main__Management__box {
+  max-width: 468px;
+ 
+}
+
+
+.main__Management__tittle {
+  margin: 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+ 
+  margin-bottom: 131px;
+  
+}
+
+
+.main__Management__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 12px;
+  margin-bottom: 25px;
+}
+
+.main__Management__box__strong {
+  display: block;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;  
+}
+
+.Management {
+  display: flex;
+  align-items: center;
+  margin-bottom: 150px;
+  &::after {
+    display: inline-block;
+    margin-left: auto;
+    width: 540px;
+    height: 474px;
+    background-image: url(../../images/amic.png);
+    background-repeat: no-repeat;
+    background-size: 540px 474px;
+    background-position: center;
+    content: "";
+  }
+}
+
+
+.Management:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.Management:nth-child(2)::after {
+  margin-left: 0;
+  margin-right: auto;
+  background-image: url(../images/des.png);
+  background-size: 540px 500px;
+  width: 540px;
+  height: 500px;
+}
+
+
+.Management:nth-child(3)::after {
+  margin-left: auto;
+  background-image: url(../../images/ami.png);
+  background-size: 542px 452px;
+  width: 542px;
+  height: 452px;
+}

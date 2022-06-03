@@ -1,12 +1,38 @@
 
 
 .hero {
-  padding: 145px 0px;
+  display: flex;
+  align-items: center;
+  padding-top: 25px; 
+  padding-bottom: 25px; 
+
+}
+
+.hero__iner {
+  display: flex;
+  align-items: center;
+  
+  &::before {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: 33px;
+    width: 600px;
+    height: 556px;
+    background-image: url(../images/amico.png);
+    background-repeat: no-repeat;
+    background-size: 600px 556px;
+    background-position:  top ;
+    order: 1;
+    content: "";
+  }
 }
 
 
+
+
 .hero__tittle {
-  max-width: 518px;
+  max-width: 458px;
+  
 } 
 
 .hero__tittle__in {
@@ -51,12 +77,12 @@
   line-height: 24px;  
   text-decoration-line: underline;
   color: #02897A;
-
+  
   &::before {
     display: inline-block;
     width: 20px;
     height: 17px;
-    background-image: url(../../images/pla.svg);
+    background-image: url(../images/pla.svg);
     background-repeat: no-repeat;
     background-size: 20px 17px;
     background-position: center;
