@@ -47,28 +47,28 @@
   
 }
 
-.card {
+.craft {
   display: flex;
   align-items: center;
 }
 
-.card ~ .card {
+.craft ~ .craft {
   flex-direction: row-reverse;
   
 }
 
-.card:nth-child(2) > img {
+.craft:nth-child(2) > img {
   margin-right: 0;
   margin-left: 16px;
   
 }
 
 
-.card > img {
+.craft > img {
   margin-right: 16px;
 }
 
-.card__text {
+.craft__text {
   position: relative;
   margin: 0;
   padding: 15px 25px;
@@ -103,22 +103,22 @@
   }
 }
 
-.card:nth-child(2) > .card__text::after {
+.craft:nth-child(2) > .craft__text::after {
   left: auto;
   right: 32px;
 }
 
-.card:nth-child(2) > .card__text::before {
+.craft:nth-child(2) > .craft__text::before {
   left: auto;
   right: 15px;
 }
 
-.main__Easy__box__iteam:nth-child(2) .card:nth-child(1) {
+.main__Easy__box__iteam:nth-child(2) .craft:nth-child(1) {
   flex-direction: row-reverse;
   margin-left: 16px;
 }
 
-.main__Easy__box__iteam:nth-child(2) .card:nth-child(2) {
+.main__Easy__box__iteam:nth-child(2) .craft:nth-child(2) {
   flex-direction: row;
   margin-right: 16px;
 }
