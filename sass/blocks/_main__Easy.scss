@@ -115,11 +115,18 @@
 
 .main__Easy__box__iteam:nth-child(2) .craft:nth-child(1) {
   flex-direction: row-reverse;
+}
+
+.main__Easy__box__iteam:nth-child(2) .craft:nth-child(1) > img {
   margin-left: 16px;
 }
 
 .main__Easy__box__iteam:nth-child(2) .craft:nth-child(2) {
   flex-direction: row;
+  margin-right: 16px;
+}
+
+.main__Easy__box__iteam:nth-child(2) .craft:nth-child(2) > img {
   margin-right: 16px;
 }
 
@@ -139,6 +146,7 @@
   line-height: 24px;
   color: #fff;
   text-decoration: none;
+
 }
 
 
