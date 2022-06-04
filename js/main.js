@@ -32,6 +32,9 @@ var elClients = document.querySelector(".Clients");
 var eflogo = document.querySelector(".footer__logo");
 var fflogo = document.querySelector(".footer__logo-bg");
 var elfooter = document.querySelector(".footer");
+var elfooter = document.querySelector(".footer");
+var elBurger = document.querySelector(".burger");
+
 
 
 
@@ -62,5 +65,6 @@ lButton.addEventListener("click", function(){
   fflogo.classList.toggle("logo");
   fflogo.classList.toggle("footer__logo-bg");
   elfooter.classList.toggle("text");
-  
+  elBurger.classList.toggle("text");
+
 });
