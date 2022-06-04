@@ -941,7 +941,7 @@ img {
   margin-bottom: 48px;
 }
 
-.Management__link {
+.main__Easy__box__link {
   display: inline-block;
   margin-right: auto;
   margin-left: auto;
@@ -953,6 +953,10 @@ img {
   line-height: 24px;
   color: #fff;
   text-decoration: none;
+}
+
+.a:hover {
+  color: #fff;
 }
 
 .main__Strategies {
@@ -982,10 +986,12 @@ img {
   line-height: 28px;
   margin: 0;
   margin-bottom: 12px;
+  color: #22343D;
 }
 
 .tittle-text {
   margin: 0;
+  color: #22343D;
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
