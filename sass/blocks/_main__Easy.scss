@@ -41,6 +41,8 @@
 
 .main__Easy__box__iteam {
   display: flex;
+  max-width: 963px;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   margin-bottom: 24px;
@@ -50,10 +52,20 @@
 .craft {
   display: flex;
   align-items: center;
+  margin-bottom: 48px;
 }
 
 .craft ~ .craft {
   flex-direction: row-reverse;
+  
+}
+
+.craft > img {
+margin-left: 16px;
+}
+
+.craft:nth-child(1) > img {
+  margin-left: 0px;
   
 }
 
@@ -62,6 +74,19 @@
   margin-left: 16px;
   
 }
+
+.craft:nth-child(3) > img {
+  margin-right: 0px;
+  margin-left: 16px;
+  
+}
+
+.craft:nth-child(4) > img {
+  margin-right: 0px;
+  margin-left: 16px;
+  
+}
+
 
 
 .craft > img {
@@ -194,24 +219,61 @@ only screen and (                min-resolution: 2dppx) {
   }
  
   
-  .craft:nth-child(odd)  {
+  .craft:nth-child(3)  {
     flex-direction: row-reverse;
 
   }
 
-  .craft:nth-child(odd) > img {
-    margin-left: 15px;
+  .craft:nth-child(1) > img {
+    margin-left: 0px;
+    margin-right: 16px;
 
   }
 
-
-  .craft:nth-child(even) > img {
-    margin-right: 15px;
+  .craft:nth-child(2) > img {
+    margin-left: 16px;
+    margin-right: 0px;
 
   }
+
+  .craft:nth-child(3) > img {
+    margin-left: 16px;
+    margin-right: 0px;
+
+  }
+
+  .craft:nth-child(4) > img {
+    margin-left: 0px;
+    margin-right: 16px;
+
+  }
+
+  .Easy {
+    background-image: url(../images/black-bg.png);
+    color: #fff;
+}
+
+
 
   .craft__text {
     max-width: 238px;
+  }
+
+  .order {
+    order: 2;
+  }
+
+  .craft:nth-child(2)  {
+    flex-direction: row-reverse;
+
+  }
+
+  .carousel-control-prev-icon {
+    display: none;
+  }
+
+  .carousel-control-next {
+    display: none;
   }
   
  
