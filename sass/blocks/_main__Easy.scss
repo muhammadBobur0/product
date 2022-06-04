@@ -9,7 +9,7 @@
 }
 
 .Easy {
-  background-image: url(../../images/black-bg.png);
+  background-image: url(../images/black-bg.png);
   color: #fff;
 }
 
@@ -146,6 +146,76 @@
   line-height: 24px;
   color: #fff;
   text-decoration: none;
+}
+
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  
+} 
+
+
+
+
+@media only screen  and (max-width:770px) {
+  
+  .main__Easy {
+    padding: 73px 0px;
+    background-image: url(../images/bg-black.png);
+    background-size: 1208px 202px;
+    margin-bottom: 100px;
+  }
+
+
+  .craft {
+    margin-bottom: 45px;
+  }
+
+  .craft ~ .craft {
+    flex-direction: row;
+}
+  
+  .main__Easy__box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main__Easy__box__iteam {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  
+  .craft:nth-child(odd)  {
+    flex-direction: row-reverse;
+
+  }
+
+  .craft:nth-child(odd) > img {
+    margin-left: 15px;
+
+  }
+
+
+  .craft:nth-child(even) > img {
+    margin-right: 15px;
+
+  }
+
+  .craft__text {
+    max-width: 238px;
+  }
+  
+ 
+  
 }
 
 

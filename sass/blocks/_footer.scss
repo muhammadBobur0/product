@@ -38,7 +38,7 @@
   line-height: 30px;
   text-decoration: none;
   color: inherit;
-
+  
 }
 
 .list__iteam-link  {
@@ -83,14 +83,18 @@
   color: #fff;
   background-color: #02897A;
   border: 0px;
+  border-radius: 4px;
 }
 
 
 
 .smal {
+  display: block;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
+
+  text-align: center;
 }
 
 
@@ -102,3 +106,49 @@
   display: none;
 }
 
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  
+} 
+
+
+
+
+@media only screen  and (max-width:770px) {
+  
+  .footer__iner {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .footer__iner > div {
+    margin: 0 auto;
+    margin-bottom: 32px;
+    
+  }
+  
+
+  .list  {
+    margin-left: auto;
+    margin-bottom: 32px;
+  }
+
+  .smal {
+    display: block;
+    text-align: center;
+  }
+  
+  
+  
+  
+}

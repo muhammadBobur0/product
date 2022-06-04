@@ -137,3 +137,89 @@
 .Management__list__item > div {
   max-width: 385px;
 }
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  
+} 
+
+
+
+
+@media only screen  and (max-width:770px) {
+  
+  
+  .main__Management {
+    
+    padding-top: 95px;
+  }
+  
+  .Management {
+    flex-direction: column-reverse;
+    max-width: 334px;
+    margin: 0px auto;
+    margin-bottom: 97px;
+  }
+  
+  .Management::after {
+    width: 349px;
+    height: 307px;
+    background-image: url(../../images/phone.png);
+    background-size: 349px 307px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    
+  }
+  
+  .Management:nth-child(2) {
+    flex-direction: column-reverse;
+    max-width: 334px;
+    margin: 0px auto;
+    margin-bottom: 98px;
+
+  }
+  
+  .Management:nth-child(2)::after {
+    width: 349px;
+    height: 307px;
+    background-image: url(../../images/serach.png);
+    background-size: 350px 320px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+  }
+  
+  .Management__list  {
+    max-width: 350px;
+  }
+
+  .Management__list__item > div {
+    max-width: 287px;
+  }
+  
+  .Management__list__item {
+    justify-content: space-between;
+  }
+
+  .Management__list__item::before {
+    margin-right: 0;
+  }
+
+  .Management:nth-child(3)::after {
+    width: 350px;
+    height: 292px;
+    background-image: url(../../images/list.png);
+    background-size: 350px 292px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+  }
+  
+  
+}

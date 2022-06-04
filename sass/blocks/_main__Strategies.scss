@@ -53,4 +53,53 @@
 .carousel-control-next {
   right: -130px;
 }
- 
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  
+} 
+
+
+
+
+@media only screen  and (max-width:770px) {
+  
+  .main__Strategies__tittle {
+    display: block;
+    margin: 0px auto;  
+    max-width: 350px;
+  }
+  
+  .main__Strategies__text {
+    text-align: center;
+    max-width: 350px;
+    margin: 0px auto;
+    margin-bottom: 40px;
+  }
+  
+  .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-4 {
+    max-width: 348px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .card-body {
+    padding: 24px 0px;
+  }
+
+  
+  
+}

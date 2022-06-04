@@ -60,21 +60,21 @@
   background-image: url(../images/omg.svg);
   background-color: #4D8DFF;
   background-size: 18px 18px;
-
+  
 }
 
 .main__Product__item:nth-child(3)::before {
   background-image: url(../images/sv.svg);
   background-color: #740A76;
   background-size: 16px 18px;
-
+  
 }
 
 .main__Product__item:nth-child(4)::before {
   background-image: url(../images/time.svg);
   background-color: #F03E3D;
   background-size: 16px 18px;
-
+  
 }
 
 
@@ -103,5 +103,53 @@
   background-color: #02897A;
   text-decoration: none;
   color: #fff;
+}
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  
+} 
+
+
+
+
+@media only screen  and (max-width:770px) {
+  
+  .main__Product {
+    background-size: 100% 202px; 
+    background-position: bottom center;
+  }
+  
+  .main__Product__text {
+    margin: 0px auto;
+    max-width: 332px;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 50px;
+  }
+  
+  .main__Product__list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main__Product__item {
+    text-align: center;
+    margin-bottom: 37px;
+  }
+  
+  .main__Product__item::before {
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 24px;
+  }
 }
 

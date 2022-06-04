@@ -5,7 +5,7 @@
   align-items: center;
   padding-top: 25px; 
   padding-bottom: 25px; 
-
+  
 }
 
 .hero__iner {
@@ -88,5 +88,76 @@
     background-position: center;
     margin-right: 9px;
     content: "";
+  }
+}
+
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  
+} 
+
+
+
+
+@media only screen  and (max-width:770px) {
+  
+  
+  
+  .hero {
+    padding-top: 33px;
+    padding-bottom: 83px;
+  }
+  
+  .hero__iner {
+    display: flex;
+    flex-direction: column-reverse;
+    
+  }
+  
+  .hero__iner {
+    
+    &::before {
+      width: 338px;
+      height: 311px;
+      background-image: url(../images/mobilhero.png);
+      background-size: 338px 311px;
+      background-position:  top ;
+      margin-bottom: 11px;
+      margin: 0 auto;
+      content: "";
+    }
+  }
+  
+  
+  .hero__tittle {
+    max-width: 369px;
+    text-align: center;
+  }
+  
+  .hero__tittle__in {
+    font-size: 36px;
+    line-height: 60px;
+  }
+  
+  .hero__tittle__text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .hero__tittle__link {
+    padding: 15px 25px;
+  }
+  
+  .button {
+    display: none;
   }
 }
