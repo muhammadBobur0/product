@@ -21,7 +21,7 @@ var elSign = document.querySelector(".Sign-In");
 var elHero = document.querySelector(".hero__tittle__in");
 var elHeroText = document.querySelector(".hero__tittle__text");
 var elProductText = document.querySelector(".main__Product__text");
-var elelProduct = document.querySelector(".main__Product__top");
+var elelProduct = document.querySelector(".main__Product__list");
 var elProduct = document.querySelector(".main__Product__bottom");
 var elSection = document.querySelector(".main__Product");
 var elManagement = document.querySelector(".main__Management");
@@ -29,6 +29,10 @@ var elEasy = document.querySelector(".main__Easy");
 var elStrategies = document.querySelector(".main__Strategies");
 var eltable = document.querySelector(".main__table");
 var elClients = document.querySelector(".Clients");
+var eflogo = document.querySelector(".footer__logo");
+var fflogo = document.querySelector(".footer__logo-bg");
+var elfooter = document.querySelector(".footer");
+
 
 
 
@@ -53,11 +57,10 @@ lButton.addEventListener("click", function(){
   elStrategies.classList.toggle("text");
   eltable.classList.toggle("text");
   elClients.classList.toggle("text");
-
-
-  
-
-
-  
+  eflogo.classList.toggle("logo-bg");
+  ellogobg.classList.toggle("logo");
+  fflogo.classList.toggle("logo");
+  fflogo.classList.toggle("footer__logo-bg");
+  elfooter.classList.toggle("text");
   
 });

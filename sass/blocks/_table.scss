@@ -187,6 +187,7 @@
 .Clients {
   color: #22343D;
   text-align: center;
+  margin-bottom: 150px;
 }
 
 
@@ -285,3 +286,40 @@
 }
 
 
+
+
+.join {
+  background: #02897A;
+  padding: 50px 50px 50px 50px;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.join__box {
+  max-width: 510px;
+}
+
+.join__tittle {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 151.4%;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom:70px;
+}
+
+.join__img {
+  display: block;
+  margin-left: auto;
+}
+
+.join__link {
+  padding: 10px 35px;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #02897A;
+  text-decoration: none;
+}
