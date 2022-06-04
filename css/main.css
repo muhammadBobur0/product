@@ -957,6 +957,7 @@ img {
 
 .main__Strategies {
   color: #22343D;
+  margin-bottom: 230px;
 }
 
 .main__Strategies__tittle {
@@ -973,6 +974,37 @@ img {
   line-height: 26px;
   margin: 0;
   margin-bottom: 33px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.tittle-text {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.color {
+  color: #02897A;
+}
+
+.carousel-indicators {
+  bottom: -100px;
+}
+
+.carousel-control-prev {
+  left: -130px;
+}
+
+.carousel-control-next {
+  right: -130px;
 }
 
 .text {
