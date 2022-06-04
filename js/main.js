@@ -27,6 +27,8 @@ var elSection = document.querySelector(".main__Product");
 var elManagement = document.querySelector(".main__Management");
 var elEasy = document.querySelector(".main__Easy");
 var elStrategies = document.querySelector(".main__Strategies");
+var eltable = document.querySelector(".main__table");
+var elClients = document.querySelector(".Clients");
 
 
 
@@ -49,6 +51,8 @@ lButton.addEventListener("click", function(){
   elManagement.classList.toggle("text");
   elEasy.classList.toggle("Easy");
   elStrategies.classList.toggle("text");
+  eltable.classList.toggle("text");
+  elClients.classList.toggle("text");
 
 
   
