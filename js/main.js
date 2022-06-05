@@ -34,6 +34,7 @@ var fflogo = document.querySelector(".footer__logo-bg");
 var elfooter = document.querySelector(".footer");
 var elfooter = document.querySelector(".footer");
 var elBurger = document.querySelector(".burger");
+var elopen = document.querySelector(".menu");
 
 
 
@@ -66,5 +67,31 @@ lButton.addEventListener("click", function(){
   fflogo.classList.toggle("footer__logo-bg");
   elfooter.classList.toggle("text");
   elBurger.classList.toggle("text");
-
+  elopen.classList.toggle("black")
+  
 });
+
+
+
+var elNav = document.querySelector(".burger");
+var elNavrev = document.querySelector(".menu");
+
+
+elNav.addEventListener("click", function(){
+  elNavrev.classList.toggle("open")
+  
+});
+
+
+var elButtonx = document.querySelector(".burger-x");
+var elNavre = document.querySelector(".menu");
+
+
+elButtonx.addEventListener("click", function(){
+elNavre.classList.toggle("open")
+  
+});
+
+
+
+

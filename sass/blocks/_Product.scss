@@ -153,3 +153,16 @@ only screen and (                min-resolution: 2dppx) {
   }
 }
 
+
+@media only screen  and (max-width:383px) {
+  
+  .main__Product {
+    background-size: 320px 202px;
+    background-position: bottom center;
+}
+  
+  
+
+ 
+  
+}

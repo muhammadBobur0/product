@@ -395,6 +395,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 main {
@@ -537,11 +538,16 @@ img {
   font-size: 36px;
 }
 
+.burger-x {
+  display: none;
+}
+
 @media only screen and (max-width: 770px) {
   .header {
     padding: 17px 0px;
     -webkit-box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
             box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+    position: relative;
   }
   .menu {
     display: none;
@@ -549,8 +555,64 @@ img {
   .burger {
     display: block;
   }
+  .Sign-In {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .Sign-up {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .open {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    display: block;
+    padding: 50px 0px;
+    width: 50%;
+    height: 100vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    background-color: #fff;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .menu__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .menu__iteam {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
   .button {
-    display: none;
+    display: block;
+    margin: 0px auto;
+  }
+  .black {
+    background-color: #1F2E35;
+    color: #fff;
+  }
+  .burger-x {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    display: block;
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+    font-size: 36px;
+    color: inherit;
   }
 }
 
@@ -693,8 +755,18 @@ img {
   .hero__tittle__link {
     padding: 15px 25px;
   }
-  .button {
-    display: none;
+}
+
+@media only screen and (max-width: 383px) {
+  .hero__iner::before {
+    width: 320px;
+    height: 311px;
+    background-image: url(../images/mobilhero.png);
+    background-size: 300px 311px;
+    background-position: top center;
+    margin-bottom: 11px;
+    margin: 0 auto;
+    content: "";
   }
 }
 
@@ -825,6 +897,13 @@ img {
     display: block;
     margin: 0px auto;
     margin-bottom: 24px;
+  }
+}
+
+@media only screen and (max-width: 383px) {
+  .main__Product {
+    background-size: 320px 202px;
+    background-position: bottom center;
   }
 }
 
@@ -986,7 +1065,7 @@ img {
   .Management::after {
     width: 349px;
     height: 307px;
-    background-image: url(../../images/phone.png);
+    background-image: url(../images/phone.png);
     background-size: 349px 307px;
     margin: 0px auto;
     margin-bottom: 50px;
@@ -1003,7 +1082,7 @@ img {
   .Management:nth-child(2)::after {
     width: 349px;
     height: 307px;
-    background-image: url(../../images/serach.png);
+    background-image: url(../images/serach.png);
     background-size: 350px 320px;
     margin: 0px auto;
     margin-bottom: 50px;
@@ -1025,10 +1104,36 @@ img {
   .Management:nth-child(3)::after {
     width: 350px;
     height: 292px;
-    background-image: url(../../images/list.png);
+    background-image: url(../images/list.png);
     background-size: 350px 292px;
     margin: 0px auto;
     margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 383px) {
+  .Management::after {
+    width: 300px;
+    height: 307px;
+    background-image: url(../images/phone.png);
+    background-size: 300px 307px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+  }
+  .Management:nth-child(2)::after {
+    width: 300px;
+    height: 307px;
+    background-image: url(../images/serach.png);
+    background-size: 300px 320px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+  }
+  .Management__list__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
   }
 }
 

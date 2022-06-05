@@ -105,6 +105,11 @@
   font-size: 36px;
 }
 
+
+ .burger-x {
+  display: none;  
+} 
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
@@ -121,13 +126,13 @@ only screen and (                min-resolution: 2dppx) {
 
 @media only screen  and (max-width:770px) {
   
-
+  
   
   .header {
     padding: 17px 0px;
     box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+    position: relative;
   }
-
 
   .menu {
     display: none;
@@ -138,7 +143,69 @@ only screen and (                min-resolution: 2dppx) {
     
   }
 
-  .button {
-    display: none;
+  .Sign-In {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: center;
   }
+
+  .Sign-up {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+
+  .open {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    display: block;
+    padding: 50px 0px;
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    flex-direction: column
+        
+  }
+  
+  
+  .menu__list {
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .menu__iteam {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  } 
+
+  
+  .button {
+    display: block;
+   margin: 0px auto;
+  }
+
+  .black {
+    background-color: #1F2E35;
+    color: #fff;
+  }
+  
+  .burger-x {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    display: block;
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+    font-size: 36px;
+    color: inherit;
+  }
+
+ 
+  
 }

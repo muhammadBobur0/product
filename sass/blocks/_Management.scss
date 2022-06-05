@@ -172,7 +172,7 @@ only screen and (                min-resolution: 2dppx) {
   .Management::after {
     width: 349px;
     height: 307px;
-    background-image: url(../../images/phone.png);
+    background-image: url(../images/phone.png);
     background-size: 349px 307px;
     margin: 0px auto;
     margin-bottom: 50px;
@@ -190,7 +190,7 @@ only screen and (                min-resolution: 2dppx) {
   .Management:nth-child(2)::after {
     width: 349px;
     height: 307px;
-    background-image: url(../../images/serach.png);
+    background-image: url(../images/serach.png);
     background-size: 350px 320px;
     margin: 0px auto;
     margin-bottom: 50px;
@@ -215,7 +215,7 @@ only screen and (                min-resolution: 2dppx) {
   .Management:nth-child(3)::after {
     width: 350px;
     height: 292px;
-    background-image: url(../../images/list.png);
+    background-image: url(../images/list.png);
     background-size: 350px 292px;
     margin: 0px auto;
     margin-bottom: 50px;
@@ -223,3 +223,37 @@ only screen and (                min-resolution: 2dppx) {
   
   
 }
+
+
+@media only screen  and (max-width:383px) {
+  
+  .Management::after {
+    width: 300px;
+    height: 307px;
+    background-image: url(../images/phone.png);
+    background-size: 300px 307px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+  
+
+.Management:nth-child(2)::after {
+  width: 300px;
+  height: 307px;
+  background-image: url(../images/serach.png);
+  background-size: 300px 320px;
+  margin: 0px auto;
+  margin-bottom: 50px;
+}
+
+
+.Management__list__item {
+  flex-direction: column;
+  text-align: center;
+}
+
+ 
+  
+}
+
+
