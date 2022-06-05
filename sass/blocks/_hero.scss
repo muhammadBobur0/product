@@ -165,10 +165,10 @@ only screen and (                min-resolution: 2dppx) {
 @media only screen  and (max-width:383px) {
   
   .hero__iner::before {
-    width: 320px;
+    width: 280px;
     height: 311px;
     background-image: url(../images/mobilhero.png);
-    background-size: 300px 311px;
+    background-size: 280px 311px;
     background-position: top center;
     margin-bottom: 11px;
     margin: 0 auto;

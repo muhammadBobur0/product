@@ -759,10 +759,10 @@ img {
 
 @media only screen and (max-width: 383px) {
   .hero__iner::before {
-    width: 320px;
+    width: 280px;
     height: 311px;
     background-image: url(../images/mobilhero.png);
-    background-size: 300px 311px;
+    background-size: 280px 311px;
     background-position: top center;
     margin-bottom: 11px;
     margin: 0 auto;
@@ -1051,7 +1051,7 @@ img {
 
 @media only screen and (max-width: 770px) {
   .main__Management {
-    padding-top: 95px;
+    padding: 95px 0px;
   }
   .Management {
     -webkit-box-orient: vertical;
@@ -1109,19 +1109,25 @@ img {
     margin: 0px auto;
     margin-bottom: 50px;
   }
+  .Management {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 383px) {
   .Management::after {
-    width: 300px;
+    width: 280px;
     height: 307px;
     background-image: url(../images/phone.png);
     background-size: 300px 307px;
     margin: 0px auto;
     margin-bottom: 50px;
   }
+  .Management {
+    text-align: center;
+  }
   .Management:nth-child(2)::after {
-    width: 300px;
+    width: 280px;
     height: 307px;
     background-image: url(../images/serach.png);
     background-size: 300px 320px;
@@ -1133,7 +1139,17 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .Management__list__item > div {
     text-align: center;
+  }
+  .Management:nth-child(3)::after {
+    width: 280px;
+    height: 292px;
+    background-image: url(../images/list.png);
+    background-size: 300px 292px;
+    margin: 0px auto;
+    margin-bottom: 50px;
   }
 }
 
@@ -1482,6 +1498,15 @@ img {
   }
   .card-body {
     padding: 24px 0px;
+  }
+  .main__Strategies {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 383px) {
+  .main__Strategies {
+    text-align: center;
   }
 }
 
