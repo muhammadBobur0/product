@@ -1,0 +1,94 @@
+
+.client {
+  padding: 100px 0px;
+  color: #22343D;
+}
+
+
+.client__tittle {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 66px;
+  
+}
+
+
+.logo-clients {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+
+
+
+
+@media only screen  and (max-width:770px) {
+  
+  
+  .logo-clients {
+    align-items: center;
+
+    flex-wrap: wrap;
+    
+    
+  }
+  
+  
+  .client {
+    padding: 50px 0px;
+}
+  
+  
+  
+  
+}
+
+
+@media only screen  and (max-width:430px) {
+  
+  
+  
+  
+  
+  .clients__logo {
+    margin-bottom: 60px;
+  }
+
+  
+  
+  
+  
+}
+
+
+
+
+@media only screen  and (max-width:380px) {
+  
+  
+  .logo-clients {
+    
+    flex-direction: column;
+    
+    align-items: center;
+    
+  }
+  
+  
+  .clients__logo {
+    display: inline-block;
+    margin-bottom: 60px;
+  }
+  
+  
+  
+  
+  
+  
+}

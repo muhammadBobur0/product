@@ -69,7 +69,7 @@ lButton.addEventListener("click", function(){
   elBurger.classList.toggle("text");
   elopen.classList.toggle("black");
   elabout.classList.toggle("text");
- 
+  
 });
 
 
@@ -89,7 +89,7 @@ var elNavre = document.querySelector(".menu");
 
 
 elButtonx.addEventListener("click", function(){
-elNavre.classList.toggle("open");
+  elNavre.classList.toggle("open");
   
 });
 
@@ -101,7 +101,7 @@ var elp = document.querySelector(".main__aboutProduct");
 var eloen = document.querySelector(".menu");
 var elBur = document.querySelector(".burger");
 var elli = document.querySelector("main__aboutProduct");
-
+var abfooter = document.querySelector("footer")
 
 lButton.addEventListener("click", function(){
   
@@ -111,20 +111,72 @@ lButton.addEventListener("click", function(){
   eloen.classList.toggle("black");
   elBur.classList.toggle("text");
   elli.classList.toggle("text");
+  abfooter.classList.toggle("text");
+
+});
+
+
+
+var abfooter = document.querySelector("footer")
+var abfooterLogo = document.querySelector(".footer__logo")
+var abFooterLogoBg = document.querySelector(".footer__logo-bg")
+var abFooterLogoB = document.querySelector(".footer__logo-bg")
+
+lButton.addEventListener("click", function(){
+  abfooter.classList.toggle("text");
+
+  abfooterLogo.classList.toggle("footer__logo-bg");
+  abFooterLogoBg.classList.toggle("footer__logo");
+  abFooterLogoB.classList.toggle("footer__logo-bg");
 
 });
 
 
 
 
-var elAboutInput = document.querySelector(".main__about-form ");
 
+
+var elclient = document.querySelector(".client");
+
+
+lButton.addEventListener("click", function(){
+  
+  elclient.classList.toggle("text");
+  
+  
+});
+
+
+var elAboutInput = document.querySelector(".main__about-form ");
 
 
 lButton.addEventListener("click", function(){
   
   elAboutInput.classList.toggle("text");
+  
+  
+});
 
+
+var eloe = document.querySelector(".menu");
+var elBur = document.querySelector(".burger");
+var elclient = document.querySelector(".client");
+var elwhu = document.querySelector(".main__whu");
+var elWork = document.querySelector(".main__Work")
+var elHave = document.querySelector(".main__have")
+
+
+lButton.addEventListener("click", function(){
+  
+  elclient.classList.toggle("text");
+  eloe.classList.toggle("black");
+  elBur.classList.toggle("text");
+  elclient.classList.toggle("text");
+  elwhu.classList.toggle("bg");
+  elWork.classList.toggle("text");
+  elHave.classList.toggle("have");
+
+  
 });
 
 
