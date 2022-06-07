@@ -6,6 +6,7 @@ var elBoxContent = document.querySelector("body");
 
 elButton.addEventListener("click", function(){
   elBoxContent.classList.toggle("black")
+  
 });
 
 
@@ -31,7 +32,6 @@ var eltable = document.querySelector(".main__table");
 var elClients = document.querySelector(".Clients");
 var eflogo = document.querySelector(".footer__logo");
 var fflogo = document.querySelector(".footer__logo-bg");
-var elfooter = document.querySelector(".footer");
 var elfooter = document.querySelector(".footer");
 var elBurger = document.querySelector(".burger");
 var elopen = document.querySelector(".menu");
@@ -67,8 +67,9 @@ lButton.addEventListener("click", function(){
   fflogo.classList.toggle("footer__logo-bg");
   elfooter.classList.toggle("text");
   elBurger.classList.toggle("text");
-  elopen.classList.toggle("black")
-  
+  elopen.classList.toggle("black");
+  elabout.classList.toggle("text");
+ 
 });
 
 
@@ -88,9 +89,47 @@ var elNavre = document.querySelector(".menu");
 
 
 elButtonx.addEventListener("click", function(){
-elNavre.classList.toggle("open")
+elNavre.classList.toggle("open");
   
 });
+
+
+
+var elcolor = document.querySelector(".Table-form");
+var elex = document.querySelector(".main__ENTERPRISE");
+var elp = document.querySelector(".main__aboutProduct");
+var eloen = document.querySelector(".menu");
+var elBur = document.querySelector(".burger");
+var elli = document.querySelector("main__aboutProduct");
+
+
+lButton.addEventListener("click", function(){
+  
+  elcolor.classList.toggle("text");
+  elex.classList.toggle("textabout");
+  elp.classList.toggle("text");
+  eloen.classList.toggle("black");
+  elBur.classList.toggle("text");
+  elli.classList.toggle("text");
+
+});
+
+
+
+
+var elAboutInput = document.querySelector(".main__about-form ");
+
+
+
+lButton.addEventListener("click", function(){
+  
+  elAboutInput.classList.toggle("text");
+
+});
+
+
+
+
 
 
 

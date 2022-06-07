@@ -1,0 +1,178 @@
+
+.main__aboutProduct {
+  color: #22343D;
+  margin-bottom: 150px;
+}
+
+
+.bigcontainer {
+  max-width: 1170px;
+}
+
+.main__aboutProduct__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  margin: 0;
+  margin-bottom: 56px;
+}
+
+
+.main__aboutProduct__box {
+  display: flex;
+  align-items: center;
+  
+}
+
+.main__aboutProduct__item {
+  margin-bottom: 32px;
+  display: block;
+}
+
+.main__aboutProduct__box::before {
+  display: inline-block;
+  width: 528px;
+  height: 393px;
+  background-image: url(../images/abo.png);
+  background-repeat: no-repeat;
+  background-size: 528px 393px;
+  background-position: bottom center;
+  margin-right: 68px;
+  content: "";
+}
+
+
+.main__aboutProduct__list {
+  margin: 0;
+  padding: 0;
+  max-width: 533px;
+  list-style: none;
+}
+
+
+
+
+.main__aboutProduct__box-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-text__strong {
+  display: flex;
+  align-items: center;
+  margin-bottom: 23px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  &::before {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/abli.png);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: center;
+    margin-right: 14px;
+    content: "";
+  }
+  
+}
+
+
+.main__aboutProduct__item:nth-child(2) > .box-text > .box-text__strong::before {
+  background-image: url(../images/abuli.png);
+  
+}
+
+.main__aboutProduct__item:nth-child(3) > .box-text > .box-text__strong::before {
+  background-image: url(../images/li.png);
+  
+}
+
+
+.main__aboutProduct__item:nth-child(3) {
+  margin-bottom: 0px;
+} 
+
+
+
+.box-text__span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+
+
+
+@media only screen  and (max-width:770px) { 
+  
+
+
+  .main__aboutProduct {
+    margin-bottom: 100px;
+  }
+  
+  .main__aboutProduct__box {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  .main__aboutProduct__box::before {
+    display: inline-block;
+    width: 352px;
+    height: 288px;
+    background-image: url(../images/mo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 288px;
+    background-position:center;
+    margin-right: 0px;
+    margin-bottom: 32px;
+    content: "";
+  }
+  
+  
+  .main__aboutProduct__list {
+    max-width: 342px;
+  }
+  
+  
+  .main__aboutProduct__item {
+    margin-bottom: 24px;
+  }
+  
+}
+
+
+
+@media only screen  and (max-width:350px) { 
+  
+
+
+  .main__aboutProduct {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  
+  
+  
+  
+  .main__aboutProduct__box::before {
+    background-size: 280px 288px;
+  }
+  
+  
+  .main__aboutProduct__list {
+    max-width: 342px;
+  }
+  
+  
+  .main__aboutProduct__item {
+    margin-bottom: 24px;
+  }
+  
+}

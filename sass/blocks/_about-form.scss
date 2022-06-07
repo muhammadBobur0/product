@@ -1,0 +1,185 @@
+.main__about-form {
+  color: #22343D;
+  
+}
+
+
+
+.about-form__tittle {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+
+
+.about-form__text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+
+.about-form__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.checboxs {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../images/+.svg);
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+  margin-right: 16px;
+}
+
+.spam {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.about-label {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+
+.checed {
+  display: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+.about-form__itam {
+  border-bottom: 1px solid #E7E7E7;
+  padding-bottom: 14px;
+  margin-bottom: 16px;
+  
+}
+
+.about-input:checked ~ .about-label >  .spam >  .checboxs {
+  background-image: url(../images/-.svg);
+  
+}
+
+
+
+.about-input:checked ~ .about-label >   .checed {
+  display: block;  
+}
+
+
+
+
+
+@media only screen  and (max-width:770px) { 
+  
+  
+  .about-form__tittle {
+    margin: 0px auto;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    max-width: 320px;
+    width: 100%;
+
+  }
+
+  .about-form__text {
+    max-width: 320px;
+    width: 100%;
+
+    margin: 0px auto;
+    margin-bottom: 32px;
+
+  }
+
+  .about-form__list {
+    max-width: 345px;
+    width: 100%;
+
+    margin: 0px auto;
+  }
+  
+}
+
+
+
+@media only screen  and (max-width:400px) { 
+  
+  
+  .about-form__tittle {
+    margin: 0px auto;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    max-width: 280px;
+  }
+
+  .about-form__text {
+    max-width: 280px;
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 32px;
+
+  }
+
+  .about-form__itam {
+    margin: 0px auto;
+    max-width: 280px;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  
+
+  .checboxs {
+    width: 18px;
+    height: 18px;
+    background-size: 18px 18px;
+    background-position: center;
+    margin-right: 5px;
+  }
+
+
+  .about-label {
+    max-width: 273px;
+  }
+  
+
+  .spam {
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .main__aboutProduct__box::before {
+    width: 280px;
+  }
+
+
+  .about-form__list  {
+
+    margin-bottom: 100px;
+  }
+  
+
+
+}
+
+
+
+
