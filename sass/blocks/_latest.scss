@@ -62,8 +62,9 @@
 .main__latest__item__box {
   width: 100%;
   padding-top: 30px;
-  padding-left:  25px;
+  padding-right: 30px;
   padding-bottom: 35px;
+  padding-left:  25px;
 }
 
 .main__latest__item__span {
@@ -154,11 +155,13 @@
 
   .main__latest__item:nth-child(3) {
     margin-right:auto;
+    margin-left: auto;
     
   }
   
   .main__latest__item:nth-child(6) {
     margin-right: auto;
+    margin-left: auto;
     
   }
   
