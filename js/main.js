@@ -181,6 +181,29 @@ lButton.addEventListener("click", function(){
 
 
 
+var secMade =document.querySelector(".main__made")
+var seclatest =document.querySelector(".main__latest")
+var seccontact =document.querySelector(".main__contact")
+var seccontactDiv =document.querySelector(".contact")
+
+var elo = document.querySelector(".menu");
+var elBu = document.querySelector(".burger");
+
+
+lButton.addEventListener("click", function(){
+  secMade.classList.toggle("text");
+  seclatest.classList.toggle("text");
+  seccontact.classList.toggle("text");
+  seccontactDiv.classList.toggle("con");
+
+  elo.classList.toggle("black");
+  elBu.classList.toggle("text");
+
+  
+});
+
+
+
 
 
 
