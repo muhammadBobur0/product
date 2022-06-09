@@ -159,6 +159,7 @@ only screen and (                min-resolution: 2dppx) {
 
   .open {
     position: absolute;
+    z-index: 100;
     top: 0px;
     right: 0;
     display: block;
@@ -169,6 +170,7 @@ only screen and (                min-resolution: 2dppx) {
     text-align: center;
     background-color: #fff;
     flex-direction: column
+    
         
   }
   
